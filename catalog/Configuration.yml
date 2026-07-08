@@ -3,6 +3,8 @@ name: Configuration
 shards:
 - github: gdotdesign/cr-dotenv
   description: Loads .env file
+- github: ysbaddaden/dirs.cr
+  description: Cross-platform base and user directories (UNIX, macOS, Windows)
 - github: drum445/dotenv
   description: Load .env files in crystal
 - github: grottopress/envy
